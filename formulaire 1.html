@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="htf-8">
+        <title>bos</title>
+        <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    </head>
+        <style>
+            body{
+                background-image: url('16.png');
+                background-size:cover;
+                color: white;
+
+
+            }
+            .conteneur{
+                
+                width: 30%;
+                height: 40%;
+                position: absolute;
+                left:37%;
+                bottom: 50%;
+                
+               }
+               
+            h1{
+                
+                text-align: center;
+                color:white;
+                font-weight: bold;
+                position: relative;
+                bottom: 20px;
+                right: 3px;
+
+            }
+            form{
+                
+                color: #fff;
+                position: relative;
+                bottom: 10px;
+            }
+            .well{
+                background-color: white;
+                background: rgb(7,6,7);
+                padding: 5%;
+                border: none;
+                border-radius: 15px/15px;
+                box-shadow: 0px 0px 50px 5px red;
+           
+            }
+            #danger{
+                border-style:dotted;
+                border-color:white;
+                position: relative;
+                left:200px;
+                background-color: red;
+            }
+            #dark {
+                position: relative;
+                left:220px;
+                border-style:dotted;
+                border-color:white;
+                background-color:black;
+            }
+            .label{
+                font-size: 20px;
+                font-weight: bold;
+                color:white;
+            }
+            #label{
+                font-size: 20px;
+                font-weight: bold;
+                color:white;
+
+            }
+            
+
+            
+            
+
+        </style>
+    </head>
+    <body>
+        <fieldset>
+        <div class="conteneur">
+            <h1 id="h1"><b>inscription en ligne </b></h1>
+            <form class="well">
+                <div class="form-group">
+                    <label for="text" class="label"> votre nom:</label>
+                    <input type="text" id="text" name="text"  class="form-control" placeholder="entrez votre nom">
+                </div>
+                <div class="form-group">
+                    <label for="text" class="label"> votre prenom:</label>
+                    <input type="text" id="text" name="text"  class="form-control" placeholder="entrez votre prenom">
+                </div>
+                <div class="form-group">
+                    <label for="tel" class="label"> votre telephone:</label>
+                    <input type="tel" id="tel" name="telephone"  class="form-control" placeholder="entrez votre telephone">
+                </div>
+                <div class="form-group">
+                    <label for="email" class="label"> votre email:</label>
+                    <input type="email" id="email" name="email"  class="form-control" placeholder="entrez votre email">
+                </div>
+                <label for="browser" class="form-label" id="label"> modele:</label>
+                <input class="form-control" list="browsers" name="browser" id="browser" placeholder="choisir">
+                <datalist id="browsers">
+                    <option value="Mercedes-Benz sls amg coupé /roadster_2010">
+                    <option value="Mercedes 280 sl pagode_1970">
+                    <option value="Mercedes-Benz 560 sl_1987">
+                    <option value="Mercedes benz 170v cabriolet b(w136)_1941">
+                    <option value="Mercedex_benz 560sl '88 + hardyop-1988">
+                    <option value="Mercedes_benz 280 sl pagode 1970">           
+                    </datalist> 
+                <div class="form-group">
+                    <label for="nomber" class="label"> votre numero de carte bancaire:</label>
+                    <input type="nomber" id="nmber" name="nomber" class="form-control" placeholder="entrez numero de votre carte bancaire">
+                </div>
+                <div class="form-check mb-3">
+                    <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox" name="remember"> Se souvenir de moi</label>
+                    </div>
+                <button class="btn btn-danger" id="danger">envoyer</button><button class="btn btn-dark "id="dark">anuller</button>
+
+            </form>
+        </div>
+        </fieldset>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </body>
+</html>

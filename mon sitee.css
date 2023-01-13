@@ -1,0 +1,14 @@
+
+#d1{font-size: xx-large;animation: animate 1s  infinite;color:white;background-color: white;width: 600px;height:60px;text-align: center;margin-left: 30%;margin-top: 20px;border: transparent;border-radius: 10px;}
+@keyframes animate{to{color:black;background-color: rgb(235, 193, 80);}}
+nav{background-color:rgba(0, 0, 0, 0.733)  ;height: 110px;font-size: xx-large;position: fixed;top: 0;font-weight: bold;color: white;}
+#video1{width: 700px;font-family: Arial, Helvetica, sans-serif;}
+#vid{float: right;position: absolute;top: 500px;right: 10px;}
+#card1{width:40% ;text-align: justify;font-family: Arial, Helvetica, sans-serif;margin: 50px;}
+#img1{height: 200px;width: 99%;margin-top: 10px;}
+#card2{/*float: right;position: absolute;top:55% ;width: 40%;left:50%;*/background-color: rgb(197, 169, 126);width: 40%}
+#div2{border:  solid 2px black;border-radius: 10px;box-shadow: 10px 10px 6px black;position: absolute;top: 1460px;left:4%;;width: 20%;background-color: aquamarine;}
+#div3{position: absolute;width:100%;margin-top: 30px;}
+#span1{text-decoration: underline;font-size: 18px;font-weight:bold;}
+#nav1{position: relative;top: 3000px;}
+#video2{width: 700px;position: relative;left:30%;}

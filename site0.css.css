@@ -1,0 +1,58 @@
+#la{
+    font-size: x-large;
+    color: black;
+    font-family: mpact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+header{
+    background-image: url("11.png");
+    height: 100vh;
+    background-position: center;
+    background-size:cover;
+}
+.navbar{
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+
+}
+.nav-link{
+    color: beige !important;
+    margin: 0px 7px;
+    text-transform: uppercase;
+    
+}
+.nav-link:hover{
+    color:rgb(173, 18, 18) !important;
+}
+span{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    font-weight: 150px;
+    color:rgb(173, 18, 18);
+}
+span:hover{
+    color:beige;
+    font-size: 40px;
+}
+.data{
+    text-align: center;
+    position: absolute;
+    left: 37%;
+    bottom: 10%;
+    
+}
+#h1{
+    font-size: 40px;
+    font-weight:bold;
+    line-height: 4.5rem;
+    margin-bottom: 1rem;
+    color:rgb(173, 18, 18);
+    font-family: initial;
+    animation: data 1s infinite;
+}
+@keyframes data{
+    to{color: gray;}
+}
+#h1:hover{
+    color:black;
+}
